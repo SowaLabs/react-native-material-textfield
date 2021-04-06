@@ -3,11 +3,12 @@ import { StyleSheet, I18nManager } from 'react-native';
 export default StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
-    alignItems: 'flex-end',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 
   input: {
-    top: 2,
+    top: 0,
     padding: 0,
     paddingTop: 0, /* XXX: iOS has paddingTop set for multiline input */
     margin: 0,
